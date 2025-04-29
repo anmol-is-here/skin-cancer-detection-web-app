@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 
 const app = express();
 
-const DB_URL = 'mongodb://localhost:27017/skin-cancer-detection';
+const DB_URL = 'mongodb+srv://anmolsharma14055:anmol%40123@cluster0.2vr4m.mongodb.net/';
 
 connectToMongoDB(DB_URL)
     .then(() => console.log("Successfully connected to MongoDB"))
